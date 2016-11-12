@@ -12,19 +12,12 @@
 				width:380px;
 				border-radius:15px;
 			}
-			tr.table1
-			{
-				text-align: left;
-			}
 			td.table1
 			{
+				text-align: left;
 				width:70px;
 				font-size: 20px;
 				font-family: verdana;
-			}
-			tr.table1
-			{
-
 			}
 			td.table2
 			{
@@ -43,10 +36,11 @@
           		box-shadow: 1px 1px 0 #bbbbbb, 0 0px 3px rgba(0, 0, 0, 0.1); 
 		</style>
 	</head>
-	<body>
-		<div>
+	<body id="calculator">
+		<div id="calculator">
 			<h1 style="font-family:verdana">calculator</h1>
-			<p style="text-align: right;font-size: 30px;padding-right: 10px;">0</p>
+			<p id='screen' style="text-align: right;font-size: 30px;padding-right: 10px;height: 40px;">
+			</p>
 			<table style="padding-left: 10px;">
 				<tr class="table1">
 					<td class="table1">HEX</td>
@@ -65,7 +59,7 @@
 					<td class="table1">0</td>
 				</tr>
 			</table>
-			<table cellspacing="10px;">
+			<table cellspacing="10px;" >
 				<tr class="table2">
 					<td><button></button></td>
 					<td><button>Mod</button></td>
@@ -88,7 +82,7 @@
 					<td><button>4</button></td>
 					<td><button>5</button></td>
 					<td><button>6</button></td>
-					<td><button>－</button></td>
+					<td><button>-</button></td>
 				</tr>
 				<tr class="table2">
 					<td><button>E</button></td>
@@ -109,3 +103,5 @@
 			</table>
 	</body>
 </html>
+
+<script src="calculator.js" type="text/javascript" ></script>
