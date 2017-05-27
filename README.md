@@ -1,3 +1,3 @@
 # Simple-Calculator-UI
 A Simple Calculator
-NCTU Software Development Practice Homework #1
+(NCTU Software Development Practice Homework #1)
